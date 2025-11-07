@@ -1,0 +1,9 @@
+version: 2
+
+models: 
+  - name: my_first_dbt_model 
+    description: "OKLM"
+    columns: 
+      - name: id
+        data_tests: 
+          - unique
